@@ -1,46 +1,45 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Rick and Morty Website
 
-## Available Scripts
+This is a website based on the popular TV show "Rick and Morty". It allows users to see information about characters from the show, as well as add and remove them from their favorite list.
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+To install this project, you need to have Node.js and npm installed on your machine. After that, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1.  Clone the repository
+2.  Navigate to the project directory in your terminal
+3.  Run  `npm install`  to install all required dependencies
+4.  Run  `npm start`  to start the development server
+5.  Open  [http://localhost:3000](http://localhost:3000/)  in your browser to view the website
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Usage
 
-### `npm test`
+On the homepage of the website, you will see all characters from the show. You can hover on each character's help icon to see more information about them, or you can click on the bottom button to add/remove them from your favorites list.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In the top navigation bar, there's a "Favorites" link which takes you to the list of your favorite characters. From here, you can hover on each character's help icon to see more information about them, or you can click on the bottom button to add/remove them from your favorites list.
 
-### `npm run build`
+## Testing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project comes with Jest tests to ensure that the functionality of the website is tested properly.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run the tests, navigate to the root directory of the project in your terminal and run  `npm test`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies used
 
-### `npm run eject`
+This project was built using the following technologies:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+-   React
+-   Typescript
+-   Redux
+-   Jest
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+All data was sourced from the  [Rick and Morty API](https://rickandmortyapi.com/).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Contributing
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+I welcome contributions to this project! If you find any bugs or have ideas for new features, feel free to open an issue or submit a pull request.
 
-## Learn More
+## Credits
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project was created by Mohammad Kohantorabi.
