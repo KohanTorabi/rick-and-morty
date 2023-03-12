@@ -1,0 +1,18 @@
+.favorites {
+  padding-top: 120px;
+}
+
+.favorites .title {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.favorites .spacer {
+  width: 100%;
+  height: 2px;
+  background: #d3d3d3;
+  margin: 20px 0;
+}
+
