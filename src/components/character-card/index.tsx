@@ -33,11 +33,19 @@ export const CharacterCard: React.FC<CharacterCardProps> = ({ character }) => {
 
   const isFavorite = favorites.find((v) => v.id === id);
 
+  const [isLoading, setIsLoading] = useState(true);
+
   const [isTooltipVisible, setIsTooltipVisible] = useState(false);
 
   return (
     <div className="character-card">
-      <img alt={name} src={image} />
+      <img
+        alt={name}
+        className={`character-image ${isLoading ? "loading" : ""}`}
+        src={image}
+        onLoad={() => setIsLoading(false)}
+        onError={() => setIsLoading(false)}
+      />
       <div className="content-container">
         <div className="content">
           <h4 className="name">{name}</h4>

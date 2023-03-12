@@ -5,7 +5,6 @@ import characterReducer from "../characters";
 describe("characterReducer", () => {
   it("should return the initial state", () => {
     expect(characterReducer(undefined, {} as CharacterAction)).toEqual({
-      characters: [],
       favorites: [],
     });
   });

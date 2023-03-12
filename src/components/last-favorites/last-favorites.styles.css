@@ -1,4 +1,4 @@
-.last-favorites .no-data {
+.no-data {
   height: 300px;
   width: 100%;
   display: flex;
@@ -7,4 +7,5 @@
   font-size: 20px;
   font-weight: 500;
   color: #a6a6a6;
+  text-align: center;
 }

@@ -130,6 +130,23 @@
   text-align: left;
 }
 
+.character-image.loading {
+  background-color: #eee;
+  animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   .character-card .name {
     font-size: 32px;
